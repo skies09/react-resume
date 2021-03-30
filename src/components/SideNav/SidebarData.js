@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiHome, BiCog } from "react-icons/bi";
-import { GrCircleInformation, GrContact } from "react-icons/gr";
-import { GiGraduateCap } from "react-icons/gi";
+import { GiGraduateCap, GiSmartphone } from "react-icons/gi";
+import { RiInformationLine } from "react-icons/ri";
 
 
 
@@ -11,12 +11,12 @@ export const SidebarData = [
     path: '/',
     icon: <BiHome />,
     cName: 'nav-text'
-    
+  
   },
   {
     title: 'About',
     path: '/about',
-    icon: <GrCircleInformation />,
+    icon: <RiInformationLine />,
     cName: 'nav-text'
   },
   {
@@ -34,7 +34,7 @@ export const SidebarData = [
   {
     title: 'Contact',
     path: '/contacy',
-    icon: <GrContact />,
+    icon: <GiSmartphone />,
     cName: 'nav-text'
   },
   // {

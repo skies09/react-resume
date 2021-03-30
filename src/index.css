@@ -29,7 +29,7 @@ nav
 {
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
-  background: linear-gradient(180deg, #0085ff 50%, #85c3ff 80%);
+  background: linear-gradient(180deg,#060b26, #0085ff 50% 80%);
 }
 .condiv
 {
@@ -168,3 +168,4 @@ h1,h2,h3,h4,p{
     padding-right: 0px;
   }
 }
+
