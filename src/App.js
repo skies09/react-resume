@@ -9,6 +9,7 @@ import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
+import Portfolio from './contents/Portfolio';
 import Contact from './contents/Contact';
 import Navbar from './components/SideNav/Navbar';
 
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route path="/skills">
               <Skills />
+            </Route>
+            <Route path="/portfolio">
+              <Portfolio />
             </Route>
             <Route path="/contact">
               <Contact />

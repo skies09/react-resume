@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiHome, BiCog } from "react-icons/bi";
 import { GiGraduateCap, GiSmartphone } from "react-icons/gi";
-import { RiInformationLine } from "react-icons/ri";
+import { RiInformationLine, RiBriefcase5Line } from "react-icons/ri";
 
 
 
@@ -25,6 +25,12 @@ export const SidebarData = [
     icon: <GiGraduateCap />,
     cName: 'nav-text'
   },
+    {
+    title: 'Portfolio',
+    path: '/portfolio',
+    icon: <RiBriefcase5Line />,
+    cName: 'nav-text'
+  },
   {
     title: 'Skills',
     path: '/skills',
@@ -33,14 +39,8 @@ export const SidebarData = [
   },
   {
     title: 'Contact',
-    path: '/contacy',
+    path: '/contact',
     icon: <GiSmartphone />,
     cName: 'nav-text'
   },
-  // {
-  //   title: 'Support',
-  //   path: '/support',
-  //   icon: <IoIcons.IoMdHelpCircle />,
-  //   cName: 'nav-text'
-  // }
 ];
